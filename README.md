@@ -16,6 +16,7 @@ git clone https://github.com/DeepDevign/Devign.git data/devign
 Edit or pass parameters to select.py:
 
 python select.py
+
 After running, the script will print the selected indices.
 
 ##  Usage 2: Slurm Job via run.slurm
@@ -24,6 +25,7 @@ Configure parameters at the top of run.slurm (partition, GPU count, memory, time
 Submit the job with arguments:
 
 sbatch run.slurm
+
 The run.slurm script will:
 
 Load necessary modules
