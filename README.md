@@ -14,18 +14,18 @@ Download the DEVIGN dataset and place it under `data/devign`:
 git clone https://github.com/DeepDevign/Devign.git data/devign
 ##  Usage 1: Select Data via select.py
 Edit or pass parameters to select.py:
-
-python select.py
-
+***
+**python select.py**
+***
 After running, the script will print the selected indices.
 
 ##  Usage 2: Slurm Job via run.slurm
 Configure parameters at the top of run.slurm (partition, GPU count, memory, time, metric, budget).
 
 Submit the job with arguments:
-
-sbatch run.slurm
-
+***
+**sbatch run.slurm**
+***
 The run.slurm script will:
 
 Load necessary modules
